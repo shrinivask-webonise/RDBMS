@@ -9,3 +9,4 @@ order_date Date,
 FOREIGN KEY (payment_id) REFERENCES payments(id),
 FOREIGN KEY (user_id) REFERENCES users(id)
 );
+

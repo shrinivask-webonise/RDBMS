@@ -1,4 +1,4 @@
-select emp.name,emp.age from emp,dept,works where dept.name="Software" and dept.id="Hardware" and emp.id=works.emp_id and emp.id=works.dept_id;
+select emp.name,emp.age from emp,dept,works where dept.name="Software" and dept.name="Hardware" and emp.id=works.emp_id and emp.id=works.dept_id;
 
 
 
